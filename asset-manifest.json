@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/market-app/static/css/main.afde966c.css",
+    "main.js": "/market-app/static/js/main.40d8dfa9.js",
+    "static/js/453.9cd7d765.chunk.js": "/market-app/static/js/453.9cd7d765.chunk.js",
+    "static/media/skill_empire_logo.PNG": "/market-app/static/media/skill_empire_logo.f19d9d31a62c5b3e935a.PNG",
+    "index.html": "/market-app/index.html",
+    "main.afde966c.css.map": "/market-app/static/css/main.afde966c.css.map",
+    "main.40d8dfa9.js.map": "/market-app/static/js/main.40d8dfa9.js.map",
+    "453.9cd7d765.chunk.js.map": "/market-app/static/js/453.9cd7d765.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.afde966c.css",
+    "static/js/main.40d8dfa9.js"
+  ]
+}
