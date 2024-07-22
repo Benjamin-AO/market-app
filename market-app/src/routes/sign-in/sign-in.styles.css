@@ -1,0 +1,181 @@
+/* ----------------------Fonts---------------------- */
+.mulishFont-900 {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.mulishFont-750 {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 750;
+    font-style: normal;
+}
+
+
+/* ----------------------Flex Properties---------------------- */
+.flex-container {
+    display: flex;
+    height: max-content ;
+    width: max-content; 
+    flex-direction: row;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.left-container {
+    width: max-content;
+    padding-top:  20px ;
+    padding-bottom: 100px;
+}
+
+.left-container-inner {
+    width: 400px;
+}
+
+.left-title-wrapper {
+    text-align: center;
+    padding: 10% 0;
+}
+
+.title-color {
+    color: blueviolet;
+}
+
+.right-container {
+    background-color: rgb(129, 35, 217);
+    width: 500px;
+    padding-top: 18%;
+    margin-left: 30px;
+}
+
+.right-container-inner {
+    text-align: center;
+}
+
+
+/* ----------------------Form Inputs---------------------- */
+.rounded-10{
+    border-radius: 10px;
+}
+.rounded-10:focus {
+    box-shadow: 0 0 0 .2rem #d2aefc;
+}
+
+input:hover {
+    box-shadow: 0 1px 6px 0 #171717;
+}
+
+
+/* ----------------------Buttons--------------------- */
+.btn.btn-rounded {
+  border-radius: 30px;
+}
+
+.btn.btn-purple {
+    background-color: white;
+    color: blueviolet;
+    border-color: blueviolet;
+}
+
+.btn.btn-purple:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+.btn.btn-small {
+    color: #bfc2c9;
+}
+
+.btn.btn-small:hover {
+    color: blueviolet;
+}
+
+.white-col{
+    color: white;
+}
+
+
+/* ----------------------Links--------------------- */
+.link-wrapper {
+    text-align: center;
+    color: #bfc2c9;
+    margin-top: 20px;
+}
+
+.link-wrapper:hover {
+    color: blueviolet;
+}
+
+
+/* ----------------------Media Query--------------------- */
+@media (max-width: 1000px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .flex-container {
+        display:contents;
+        position: absolute;
+        flex-direction: column;
+        height: 100% ;
+        width: 100%; 
+        justify-self: center;
+        align-self: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        top: 0;
+    }
+
+    .left-container {
+        position: relative;
+        width: 100%;
+        height: 70%;
+        padding: 0;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .left-container-inner {
+        width: auto;
+        height: max-content;
+    }
+    
+    .right-container {
+        display: block;
+        position: relative;
+        background-color: rgb(129, 35, 217);
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: auto;
+        align-content: center;
+        justify-items: center;
+        bottom: 0;
+    }
+    
+    .right-container-inner {
+        text-align: center;
+        position: relative;
+        bottom: 0;
+        padding-bottom: 20px;
+    }
+
+    form {
+        padding: 0 20px;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        font-size: xx-large;
+    }  
+}
+
+

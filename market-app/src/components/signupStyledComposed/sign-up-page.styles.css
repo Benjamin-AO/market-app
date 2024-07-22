@@ -1,0 +1,166 @@
+/* ----------------------Fonts---------------------- */
+.mulishFont-900 {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.mulishFont-750 {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 750;
+    font-style: normal;
+}
+
+
+
+
+/* ----------------------Grid---------------------- */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 100vh ;
+    width: 100%; 
+    padding: 50px;
+    /* padding-right: 100px; */
+    
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+
+    
+}
+
+
+.item1 {
+    /* width: max-content; */
+    /* padding: 0 100px; */
+
+    padding-left: 300px;
+    padding-right: 30px;
+}
+
+.item1-inner {
+    padding-left: 300px;
+    padding: 30px;
+}
+
+.item2 {
+    background-color: blueviolet;
+    padding-top: 20px;
+    align-content: center;
+    padding-top: 25%;
+
+}
+
+.item2-inner {
+    text-align: center;
+    padding: 0 50px;
+}
+
+
+/* ----------------------Form Inputs---------------------- */
+.rounded-10{
+    border-radius: 10px;
+}
+
+.rounded-10:focus {
+    box-shadow: 0 0 0 .2rem #d2aefc;
+}
+
+input:hover {
+    box-shadow: 0 1px 6px 0 #171717;
+}
+
+
+/* ----------------------Buttons--------------------- */
+.btn.btn-rounded {
+  border-radius: 30px;
+}
+
+.btn.btn-purple {
+    background-color: white;
+    color: blueviolet;
+    border-color: blueviolet;
+}
+
+.btn.btn-purple:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+
+
+
+.title-color {
+    color: blueviolet;
+}
+
+.white-col{
+    color: white;
+}
+
+
+
+
+.left-title-wrapper {
+   text-align: center;
+   padding: 10% 0;
+}
+
+.signup-btn-wrapper {
+    text-align: center;
+   padding: 0 50px;
+   margin-top: 50px;
+}
+
+
+@media (max-width: 1000px) {
+    body {
+
+        margin: 0;
+        padding: 0;
+
+    }
+    .grid-container {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        row-gap: 20px;
+        justify-content: center;
+        width: 100%;
+        height: min-content;
+        padding: 0;
+    }
+
+    .item1 {
+        position: relative;
+        width: 100%;
+        padding: 0 5%;
+    }
+
+    .item2 {
+        /* display: fixed; */
+        position: relative;
+        margin-top: 10px;
+        padding: 2% 0;
+        width: auto;
+        height: 100%;
+        align-items: center;
+    }
+
+    .item2-inner {
+        align-content: center;
+    }
+
+    .left-title-wrapper {
+        text-align: center;
+        padding: 0;
+     }
+}
+
